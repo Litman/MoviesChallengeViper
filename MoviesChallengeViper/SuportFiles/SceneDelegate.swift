@@ -16,9 +16,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         window = .init(windowScene: windowScene)
-        let loginViewController = LoginViewController()
+        let loginViewController = LoginRouter.createModule()
         let navigationController = UINavigationController(rootViewController: loginViewController)
-        
         navigationController.navigationBar.prefersLargeTitles = true
         window?.makeKeyAndVisible()
         window?.rootViewController = navigationController

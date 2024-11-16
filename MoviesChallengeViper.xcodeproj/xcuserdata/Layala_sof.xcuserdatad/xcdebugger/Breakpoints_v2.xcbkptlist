@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9F1FF5D4-3E63-439B-B1A2-30CB2BCB5CAC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9A6A17B-3634-4A10-AD69-E493B028A0C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoviesChallengeViper/Modules/Login/LoginInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "login(user:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECFB427F-A1BF-4908-BF2E-645851BD2231"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoviesChallengeViper/Modules/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "LoginViewController"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  uuid = "ECFB427F-A1BF-4908-BF2E-645851BD2231 - c84920f63443f340"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoviesChallengeViper.LoginViewController.showErrorUser(message: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "MoviesChallengeViper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Layala_sof/Documents/Repositorios/MoviesDBChallengeViper/MoviesChallengeViper/MoviesChallengeViper/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100">
+               </Location>
+               <Location
+                  uuid = "ECFB427F-A1BF-4908-BF2E-645851BD2231 - ddb9587a61faf3d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in MoviesChallengeViper.LoginViewController.showErrorUser(message: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "MoviesChallengeViper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Layala_sof/Documents/Repositorios/MoviesDBChallengeViper/MoviesChallengeViper/MoviesChallengeViper/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100">
+               </Location>
+               <Location
+                  uuid = "ECFB427F-A1BF-4908-BF2E-645851BD2231 - 8ccbfc391a172d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoviesChallengeViper.LoginViewController.showErrorLogin(message: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "MoviesChallengeViper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Layala_sof/Documents/Repositorios/MoviesDBChallengeViper/MoviesChallengeViper/MoviesChallengeViper/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FDC03F5-6C95-45F9-9326-F6A1158758E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoviesChallengeViper/Modules/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "showErrorPassword(message:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6FDC03F5-6C95-45F9-9326-F6A1158758E5 - 3dc43d1c8787bd7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoviesChallengeViper.LoginViewController.showErrorPassword(message: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "MoviesChallengeViper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Layala_sof/Documents/Repositorios/MoviesDBChallengeViper/MoviesChallengeViper/MoviesChallengeViper/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112">
+               </Location>
+               <Location
+                  uuid = "6FDC03F5-6C95-45F9-9326-F6A1158758E5 - c96e73e3551d5941"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in MoviesChallengeViper.LoginViewController.showErrorPassword(message: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "MoviesChallengeViper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Layala_sof/Documents/Repositorios/MoviesDBChallengeViper/MoviesChallengeViper/MoviesChallengeViper/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDAD10CB-20EE-4D39-B147-C23FE16B302C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoviesChallengeViper/Modules/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "showErrorUser(message:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BDAD10CB-20EE-4D39-B147-C23FE16B302C - 3dc43d1c8787bdb5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoviesChallengeViper.LoginViewController.showErrorPassword(message: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "MoviesChallengeViper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Layala_sof/Documents/Repositorios/MoviesDBChallengeViper/MoviesChallengeViper/MoviesChallengeViper/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106">
+               </Location>
+               <Location
+                  uuid = "BDAD10CB-20EE-4D39-B147-C23FE16B302C - ddb9587a61faf283"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in MoviesChallengeViper.LoginViewController.showErrorUser(message: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "MoviesChallengeViper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Layala_sof/Documents/Repositorios/MoviesDBChallengeViper/MoviesChallengeViper/MoviesChallengeViper/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
