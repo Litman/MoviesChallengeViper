@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		226CD6E32CE98E6C0012B762 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 226CD6E22CE98E6C0012B762 /* AlamofireImage */; };
+		226CD6E62CE998220012B762 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 226CD6E52CE998220012B762 /* Alamofire */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		226CD6752CE8303E0012B762 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				226CD6E32CE98E6C0012B762 /* AlamofireImage in Frameworks */,
+				226CD6E62CE998220012B762 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +132,8 @@
 			);
 			name = MoviesChallengeViper;
 			packageProductDependencies = (
+				226CD6E22CE98E6C0012B762 /* AlamofireImage */,
+				226CD6E52CE998220012B762 /* Alamofire */,
 			);
 			productName = MoviesChallengeViper;
 			productReference = 226CD65B2CE8303D0012B762 /* MoviesChallengeViper.app */;
@@ -208,6 +217,10 @@
 			);
 			mainGroup = 226CD6522CE8303D0012B762;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				226CD6E12CE98E6C0012B762 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				226CD6E42CE998220012B762 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 226CD65C2CE8303D0012B762 /* Products */;
 			projectDirPath = "";
@@ -567,6 +580,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		226CD6E12CE98E6C0012B762 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.0;
+			};
+		};
+		226CD6E42CE998220012B762 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		226CD6E22CE98E6C0012B762 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 226CD6E12CE98E6C0012B762 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+		226CD6E52CE998220012B762 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 226CD6E42CE998220012B762 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 226CD6532CE8303D0012B762 /* Project object */;
 }

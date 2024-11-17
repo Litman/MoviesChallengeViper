@@ -17,8 +17,8 @@ class LoginRouter: LoginRouterProtocol {
         let interactor = LoginInteractor()
         let presenter = LoginPresenter(interactor: interactor, router: router)
         let viewController = LoginViewController(presenter: presenter)
-        presenter.view = viewController as? any LoginViewProtocol
-        interactor.presenter = presenter as? any LoginInteractorToPresenterProtocol
+        presenter.view = viewController
+        interactor.presenter = presenter
         router.viewController = viewController
         return viewController
     }
