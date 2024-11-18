@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Network
 
 class MoviesListViewController: UIViewController {
     
@@ -13,6 +14,9 @@ class MoviesListViewController: UIViewController {
     var moviesTableView: UITableView = UITableView()
     var listMovies: [MovieModel]?
     private var isLoading = false
+    
+    // MARK: - Network check
+    var networkCheck = NetworkCheck.sharedInstance()
     
     //MARK: - Presenter
     private let presenter: MoviesListPresenterProtocol?
@@ -44,6 +48,10 @@ extension MoviesListViewController {
         
         title = "TMDB Movies"
         self.navigationItem.largeTitleDisplayMode = .never
+        
+        self.navigationItem.rightBarButtonItem  = UIBarButtonItem.menuButton(self, action: #selector(self.handleLogout), imageName: "logout")
+        
+        networkCheck.addObserver(observer: self)
     }
     
     private func callWebServices() {
@@ -56,6 +64,11 @@ extension MoviesListViewController {
             presenter?.loadMoreData()
             
         }
+    }
+    
+    @objc private func handleLogout() {
+        presenter?.logout()
+        
     }
 }
 
@@ -111,6 +124,7 @@ extension MoviesListViewController: UITableViewDataSource, UITableViewDelegate {
     }
 }
 
+//MARK: - MovieListView
 extension MoviesListViewController: MoviesListViewProtocol {
     
     func reloadMoviesTable(withMovies data: [MovieModel]?) {
@@ -132,5 +146,28 @@ extension MoviesListViewController: MoviesListViewProtocol {
     func showError(errorMessage: String) {
         //self.showToast(message: errorMessage, font: UIFont.systemFont(ofSize: 16))
     }
+    
+}
+
+//MARK: - NetworkChecker
+extension MoviesListViewController: NetworkCheckerProtocol {
+    
+    
+    func statusDidChange(status: NWPath.Status) {
+        
+        if status == .satisfied {
+            listMovies?.removeAll()
+            self.moviesTableView.reloadData()
+            
+            presenter?.startGetMovies()
+            
+        } else  if status == .unsatisfied {
+            listMovies?.removeAll()
+            self.moviesTableView.reloadData()
+            presenter?.loadDataFromDB()
+        }
+    }
+    
+    
     
 }

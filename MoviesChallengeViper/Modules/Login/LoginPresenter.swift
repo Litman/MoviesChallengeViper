@@ -9,6 +9,7 @@ import Foundation
 
 class LoginPresenter: LoginPresenterProtocol {
     
+    // MARK: - Properties
     weak var view: LoginViewProtocol?
     var interactor: LoginInteractorProtocol
     var router: LoginRouterProtocol
@@ -46,6 +47,7 @@ class LoginPresenter: LoginPresenterProtocol {
     
 }
 
+//MARK: - Protocol LoginInteractorToPresenterProtocol
 extension LoginPresenter: LoginInteractorToPresenterProtocol {
     func didReceiveErrorLogin(message: String?) {
         view?.showErrorLogin(message: message)
@@ -59,7 +61,6 @@ extension LoginPresenter: LoginInteractorToPresenterProtocol {
         view?.showErrorPassword(message: message)
     }
     
-
     
     func didReceiveSuccessLogin() {
         router.goToMoviesListViewController(from: self.view!)

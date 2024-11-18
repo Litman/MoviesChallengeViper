@@ -14,18 +14,22 @@ protocol MoviesListRouterProtocol: AnyObject {
     
     func goToDetailViewController(data: MovieModel)
     
+    func goToLoginViewController()
+    
 }
 
 protocol MoviesListPresenterProtocol: AnyObject {
     
+    //MARK: - Properties
     var view: MoviesListViewProtocol? {get set}
     var listMovies: [MovieModel]? {get set}
     
+    //MARK: Methods
     func startGetMovies()
     func loadMoreData()
-    
+    func loadDataFromDB()
     func moveToDetailView(data: MovieModel)
-    
+    func logout()
     
 }
 
@@ -46,7 +50,9 @@ protocol MoviesListInteractorProtocol: AnyObject {
     
     func getMoreMovies(page: String)
     
+    func saveMovie(data: MovieModel?, image: UIImage?)
     
+    func getMoviesFromDB()
 }
 
 
@@ -58,6 +64,6 @@ protocol MoviesListInteractorToPresenterProtocol: AnyObject {
     
     func didReceiveSuccessMoreMovies(listMovies: MoviesModel)
     
-    
+    func didReceiveSuccessMoviesDB(listMovies: [MovieModel])
     
 }

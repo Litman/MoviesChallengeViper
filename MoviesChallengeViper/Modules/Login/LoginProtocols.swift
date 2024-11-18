@@ -10,10 +10,12 @@ import UIKit
 
 protocol LoginPresenterProtocol: AnyObject {
     
+    //MARK: - Properties
     var view: LoginViewProtocol? {get set}
     var user: String {get set}
     var password: String {get set}
     
+    //MARK: Methods
     func login()
     
 }

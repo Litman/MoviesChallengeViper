@@ -11,4 +11,13 @@ public extension String {
     
     static var emptyString: String { return "" }
     
+    
+    func text(before text: String) -> String? {
+        guard let range = self.range(of: text) else { return nil }
+        return String(self[self.startIndex..<range.lowerBound])
+    }
+    
 }
+
+
+

@@ -15,8 +15,9 @@ class MoviesListRouter: MoviesListRouterProtocol {
     
     static func createModule() -> UIViewController {
         let repository: MoviesListRepository = MoviesListRepository()
+        let repositoryDB: MovieCoreDataRepository = MovieCoreDataRepository()
         let router = MoviesListRouter()
-        let interactor = MoviesListInteractor(repository: repository)
+        let interactor = MoviesListInteractor(repository: repository, repositoryDB: repositoryDB)
         let presenter = MoviesListPresenter(interactor: interactor, router: router)
         let viewController = MoviesListViewController(presenter: presenter)
         presenter.view = viewController
@@ -26,8 +27,18 @@ class MoviesListRouter: MoviesListRouterProtocol {
     }
     
     func goToDetailViewController(data: MovieModel) {
-        let detailMovieViewController = DetailMovieViewController()
+        let detailMovieViewController = DetailMovieRouter.createModule(data: data)
         
         viewController?.navigationController?.pushViewController(detailMovieViewController, animated: true)
+    }
+    
+    func goToLoginViewController() {
+        
+        let router = LoginRouter.createModule()
+        let navigationController = UINavigationController(rootViewController: router)
+        
+        navigationController.navigationBar.prefersLargeTitles = true
+        viewController?.view.window?.rootViewController = navigationController
+        
     }
 }

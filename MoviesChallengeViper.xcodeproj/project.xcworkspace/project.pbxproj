@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		226CD6E32CE98E6C0012B762 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 226CD6E22CE98E6C0012B762 /* AlamofireImage */; };
+		226CD6E62CE998220012B762 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 226CD6E52CE998220012B762 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		226CD6752CE8303E0012B762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226CD6532CE8303D0012B762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 226CD65A2CE8303D0012B762;
+			remoteInfo = MoviesChallengeViper;
+		};
+		226CD67F2CE8303E0012B762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226CD6532CE8303D0012B762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 226CD65A2CE8303D0012B762;
+			remoteInfo = MoviesChallengeViper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		226CD65B2CE8303D0012B762 /* MoviesChallengeViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesChallengeViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		226CD6742CE8303E0012B762 /* MoviesChallengeViperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesChallengeViperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		226CD67E2CE8303E0012B762 /* MoviesChallengeViperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesChallengeViperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		226CD6862CE8303E0012B762 /* Exceptions for "MoviesChallengeViper" folder in "MoviesChallengeViper" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 226CD65A2CE8303D0012B762 /* MoviesChallengeViper */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		226CD65D2CE8303D0012B762 /* MoviesChallengeViper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				226CD6862CE8303E0012B762 /* Exceptions for "MoviesChallengeViper" folder in "MoviesChallengeViper" target */,
+			);
+			path = MoviesChallengeViper;
+			sourceTree = "<group>";
+		};
+		226CD6772CE8303E0012B762 /* MoviesChallengeViperTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MoviesChallengeViperTests;
+			sourceTree = "<group>";
+		};
+		226CD6812CE8303E0012B762 /* MoviesChallengeViperUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MoviesChallengeViperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		226CD6582CE8303D0012B762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226CD6E32CE98E6C0012B762 /* AlamofireImage in Frameworks */,
+				226CD6E62CE998220012B762 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226CD6712CE8303E0012B762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226CD67B2CE8303E0012B762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		226CD6522CE8303D0012B762 = {
+			isa = PBXGroup;
+			children = (
+				226CD65D2CE8303D0012B762 /* MoviesChallengeViper */,
+				226CD6772CE8303E0012B762 /* MoviesChallengeViperTests */,
+				226CD6812CE8303E0012B762 /* MoviesChallengeViperUITests */,
+				226CD65C2CE8303D0012B762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		226CD65C2CE8303D0012B762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				226CD65B2CE8303D0012B762 /* MoviesChallengeViper.app */,
+				226CD6742CE8303E0012B762 /* MoviesChallengeViperTests.xctest */,
+				226CD67E2CE8303E0012B762 /* MoviesChallengeViperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		226CD65A2CE8303D0012B762 /* MoviesChallengeViper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226CD6872CE8303E0012B762 /* Build configuration list for PBXNativeTarget "MoviesChallengeViper" */;
+			buildPhases = (
+				226CD6572CE8303D0012B762 /* Sources */,
+				226CD6582CE8303D0012B762 /* Frameworks */,
+				226CD6592CE8303D0012B762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				226CD65D2CE8303D0012B762 /* MoviesChallengeViper */,
+			);
+			name = MoviesChallengeViper;
+			packageProductDependencies = (
+				226CD6E22CE98E6C0012B762 /* AlamofireImage */,
+				226CD6E52CE998220012B762 /* Alamofire */,
+			);
+			productName = MoviesChallengeViper;
+			productReference = 226CD65B2CE8303D0012B762 /* MoviesChallengeViper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		226CD6732CE8303E0012B762 /* MoviesChallengeViperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226CD68C2CE8303E0012B762 /* Build configuration list for PBXNativeTarget "MoviesChallengeViperTests" */;
+			buildPhases = (
+				226CD6702CE8303E0012B762 /* Sources */,
+				226CD6712CE8303E0012B762 /* Frameworks */,
+				226CD6722CE8303E0012B762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				226CD6762CE8303E0012B762 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				226CD6772CE8303E0012B762 /* MoviesChallengeViperTests */,
+			);
+			name = MoviesChallengeViperTests;
+			packageProductDependencies = (
+			);
+			productName = MoviesChallengeViperTests;
+			productReference = 226CD6742CE8303E0012B762 /* MoviesChallengeViperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		226CD67D2CE8303E0012B762 /* MoviesChallengeViperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226CD68F2CE8303E0012B762 /* Build configuration list for PBXNativeTarget "MoviesChallengeViperUITests" */;
+			buildPhases = (
+				226CD67A2CE8303E0012B762 /* Sources */,
+				226CD67B2CE8303E0012B762 /* Frameworks */,
+				226CD67C2CE8303E0012B762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				226CD6802CE8303E0012B762 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				226CD6812CE8303E0012B762 /* MoviesChallengeViperUITests */,
+			);
+			name = MoviesChallengeViperUITests;
+			packageProductDependencies = (
+			);
+			productName = MoviesChallengeViperUITests;
+			productReference = 226CD67E2CE8303E0012B762 /* MoviesChallengeViperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		226CD6532CE8303D0012B762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					226CD65A2CE8303D0012B762 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					226CD6732CE8303E0012B762 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 226CD65A2CE8303D0012B762;
+					};
+					226CD67D2CE8303E0012B762 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 226CD65A2CE8303D0012B762;
+					};
+				};
+			};
+			buildConfigurationList = 226CD6562CE8303D0012B762 /* Build configuration list for PBXProject "MoviesChallengeViper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 226CD6522CE8303D0012B762;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				226CD6E12CE98E6C0012B762 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				226CD6E42CE998220012B762 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 226CD65C2CE8303D0012B762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				226CD65A2CE8303D0012B762 /* MoviesChallengeViper */,
+				226CD6732CE8303E0012B762 /* MoviesChallengeViperTests */,
+				226CD67D2CE8303E0012B762 /* MoviesChallengeViperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		226CD6592CE8303D0012B762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226CD6722CE8303E0012B762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226CD67C2CE8303E0012B762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		226CD6572CE8303D0012B762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226CD6702CE8303E0012B762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226CD67A2CE8303E0012B762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		226CD6762CE8303E0012B762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 226CD65A2CE8303D0012B762 /* MoviesChallengeViper */;
+			targetProxy = 226CD6752CE8303E0012B762 /* PBXContainerItemProxy */;
+		};
+		226CD6802CE8303E0012B762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 226CD65A2CE8303D0012B762 /* MoviesChallengeViper */;
+			targetProxy = 226CD67F2CE8303E0012B762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		226CD6882CE8303E0012B762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U2H2H8P92;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoviesChallengeViper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moviesdb.MoviesChallengeViper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		226CD6892CE8303E0012B762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U2H2H8P92;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoviesChallengeViper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moviesdb.MoviesChallengeViper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		226CD68A2CE8303E0012B762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		226CD68B2CE8303E0012B762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		226CD68D2CE8303E0012B762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U2H2H8P92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moviesdb.MoviesChallengeViperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoviesChallengeViper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoviesChallengeViper";
+			};
+			name = Debug;
+		};
+		226CD68E2CE8303E0012B762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U2H2H8P92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moviesdb.MoviesChallengeViperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoviesChallengeViper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoviesChallengeViper";
+			};
+			name = Release;
+		};
+		226CD6902CE8303E0012B762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U2H2H8P92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moviesdb.MoviesChallengeViperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoviesChallengeViper;
+			};
+			name = Debug;
+		};
+		226CD6912CE8303E0012B762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U2H2H8P92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moviesdb.MoviesChallengeViperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoviesChallengeViper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		226CD6562CE8303D0012B762 /* Build configuration list for PBXProject "MoviesChallengeViper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226CD68A2CE8303E0012B762 /* Debug */,
+				226CD68B2CE8303E0012B762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226CD6872CE8303E0012B762 /* Build configuration list for PBXNativeTarget "MoviesChallengeViper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226CD6882CE8303E0012B762 /* Debug */,
+				226CD6892CE8303E0012B762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226CD68C2CE8303E0012B762 /* Build configuration list for PBXNativeTarget "MoviesChallengeViperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226CD68D2CE8303E0012B762 /* Debug */,
+				226CD68E2CE8303E0012B762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226CD68F2CE8303E0012B762 /* Build configuration list for PBXNativeTarget "MoviesChallengeViperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226CD6902CE8303E0012B762 /* Debug */,
+				226CD6912CE8303E0012B762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		226CD6E12CE98E6C0012B762 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.0;
+			};
+		};
+		226CD6E42CE998220012B762 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		226CD6E22CE98E6C0012B762 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 226CD6E12CE98E6C0012B762 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+		226CD6E52CE998220012B762 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 226CD6E42CE998220012B762 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 226CD6532CE8303D0012B762 /* Project object */;
+}

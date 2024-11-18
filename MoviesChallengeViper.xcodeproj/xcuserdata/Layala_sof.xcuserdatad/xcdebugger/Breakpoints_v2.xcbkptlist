@@ -16,8 +16,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "100"
             endingLineNumber = "100"
-            landmarkName = "LoginViewController"
-            landmarkType = "21">
+            landmarkName = "showErrorLogin(message:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -85,32 +85,134 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B14C48BD-4E32-4999-B7DA-11C8BE41F9C0"
+            uuid = "037FFD24-3032-4744-B919-C308AD3622C0"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MoviesChallengeViper/Modules/MoviesList/MoviesListViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "setupTableView()"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "statusDidChange(status:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D3A51700-15D9-4D42-8AC8-4872F9B1DD77"
+            uuid = "ABA7D7CC-971D-42C2-A7A0-23AB3CE618FC"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MoviesChallengeViper/Modules/MovieDetail/DetailMovieViewController.swift"
+            filePath = "MoviesChallengeViper/Modules/MoviesList/MoviesListViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "MoviesListViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "ABA7D7CC-971D-42C2-A7A0-23AB3CE618FC - 2f4bace99dbf5972"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoviesChallengeViper.MoviesListViewController.networkCheck.getter : MoviesChallengeViper.NetworkCheck"
+                  moduleName = "MoviesChallengeViper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Layala_sof/Documents/Repositorios/MoviesDBChallengeViper/MoviesChallengeViper/MoviesChallengeViper/Modules/MoviesList/MoviesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "ABA7D7CC-971D-42C2-A7A0-23AB3CE618FC - 6069f0046d0c0463"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoviesChallengeViper.MoviesListViewController.networkCheck.setter : MoviesChallengeViper.NetworkCheck"
+                  moduleName = "MoviesChallengeViper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Layala_sof/Documents/Repositorios/MoviesDBChallengeViper/MoviesChallengeViper/MoviesChallengeViper/Modules/MoviesList/MoviesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+               <Location
+                  uuid = "ABA7D7CC-971D-42C2-A7A0-23AB3CE618FC - 67099ae6cd9b04c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoviesChallengeViper.MoviesListViewController.networkCheck.modify : MoviesChallengeViper.NetworkCheck"
+                  moduleName = "MoviesChallengeViper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Layala_sof/Documents/Repositorios/MoviesDBChallengeViper/MoviesChallengeViper/MoviesChallengeViper/Modules/MoviesList/MoviesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+               <Location
+                  uuid = "ABA7D7CC-971D-42C2-A7A0-23AB3CE618FC - a0179627c5eef907"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoviesChallengeViper.MoviesListViewController.networkCheck.modify : MoviesChallengeViper.NetworkCheck with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MoviesChallengeViper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "ABA7D7CC-971D-42C2-A7A0-23AB3CE618FC - 71b062c40561372e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoviesChallengeViper.MoviesListViewController.init(presenter: MoviesChallengeViper.MoviesListPresenterProtocol) -&gt; MoviesChallengeViper.MoviesListViewController"
+                  moduleName = "MoviesChallengeViper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Layala_sof/Documents/Repositorios/MoviesDBChallengeViper/MoviesChallengeViper/MoviesChallengeViper/Modules/MoviesList/MoviesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+               <Location
+                  uuid = "ABA7D7CC-971D-42C2-A7A0-23AB3CE618FC - defa8f38fa4e2ccd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoviesChallengeViper.MoviesListViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MoviesChallengeViper.MoviesListViewController&gt;"
+                  moduleName = "MoviesChallengeViper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Layala_sof/Documents/Repositorios/MoviesDBChallengeViper/MoviesChallengeViper/MoviesChallengeViper/Modules/MoviesList/MoviesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "570A0CE9-E336-4C0B-9102-DF7579246238"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoviesChallengeViper/Modules/MoviesList/MoviesListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "setupUI()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
