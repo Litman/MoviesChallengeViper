@@ -10,5 +10,5 @@ import Foundation
 func getUrl(_ path: String) -> URL {
     let url = URL(string: "\(Constants.baseUrlImage)\(path)")
     return url ?? URL(string: "")!
-    
+    //HOLA CAMBIO A SUBIR
 }
